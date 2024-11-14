@@ -1,6 +1,23 @@
 # 💫 About Me:
-Experienced in building scalable and efficient backend systems using Go. Passionate about clean code, robust architecture, and contributing to open-source projects. Proficient in developing RESTful APIs, working with SQL and NoSQL databases, and leveraging cloud technologies. Always eager to learn and collaborate on innovative projects.<br>
+Hi! I'm Athul Krishna, a passionate and driven self-taught developer with a strong focus on backend technologies, particularly Golang. I believe in deeply understanding the concepts I work with and applying that knowledge to build efficient, scalable solutions. I’m constantly exploring new technologies and improving my skills to solve real-world problems.
 
+My development journey is fueled by curiosity, problem-solving, and a commitment to continuous learning. I thrive on tackling new challenges, whether working with APIs, optimizing backend architectures, or integrating third-party services like payment gateways.
+
+My skills include:
+Backend Development (Golang, MVC Architecture, REST APIs)
+Database Management (PostgreSQL, GORM)
+Version Control (Git & GitHub)
+Unit Testing for clean and maintainable code
+Problem Solving and Algorithms (DSA)
+Microservices and Scalable Systems
+Exploring Real-Time Applications and Cloud Technologies
+
+My Attitude:
+I believe in mastering the fundamentals before jumping into advanced topics, and I take the time to understand every aspect of a project. Whether I’m working on a new feature or debugging an issue, I’m always focused on writing clean, efficient, and reliable code. I believe in delivering high-quality solutions, and I’m always striving to learn and grow as a developer.
+
+I’m actively working towards expanding my knowledge in microservices, real-time systems, and full-stack development, to become a well-rounded engineer. I enjoy collaborating, sharing knowledge, and pushing myself to build the best solutions I can.
+
+Let’s connect and build something great together! 📬
 
 
 
