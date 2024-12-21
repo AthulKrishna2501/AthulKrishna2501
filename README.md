@@ -2,7 +2,6 @@
 Hi! I'm Athul Krishna, a passionate and driven self-taught developer with a strong focus on backend technologies, particularly Golang. I believe in deeply understanding the concepts I work with and applying that knowledge to build efficient, scalable solutions. I’m constantly exploring new technologies and improving my skills to solve real-world problems.
 
 My development journey is fueled by curiosity, problem-solving, and a commitment to continuous learning. I thrive on tackling new challenges, whether working with APIs, optimizing backend architectures, or integrating third-party services like payment gateways.
-![Snake animation](https://github.com/AthulKrishna2501/snake-animation/blob/dist/snake.svg)
 My skills include:
 Backend Development (Golang, MVC Architecture, REST APIs)
 Database Management (PostgreSQL, GORM)
