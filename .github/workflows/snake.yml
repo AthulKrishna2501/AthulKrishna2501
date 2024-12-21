@@ -17,10 +17,9 @@ jobs:
         uses: Platane/snk@v2
         with:
           github_user_name: ${{ github.repository_owner }}
-          output: dist/snake.svg
 
       - name: Commit and Push Snake Animation
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update Snake Animation"
-          file_pattern: dist/snake.svg
+          file_pattern: "dist/snake.svg"
