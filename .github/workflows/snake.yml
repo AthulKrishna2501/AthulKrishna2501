@@ -1,37 +1,32 @@
 name: Generate Snake Animation
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    # Runs at midnight daily
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 20 * * *"
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
+      - name: Checkout Code
+        uses: actions/checkout@v2
       - name: Generate Snake Animation
         uses: Platane/snk@v3.0.0
-
         with:
           github_user_name: AthulKrishna2501
           outputs: dist/snake.svg
-
-      - name: Upload Snake Animation
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake-animation
-          path: dist/snake.svg
-
-      - name: Push Generated Snake
+      - name: Commit Snake Animation
         run: |
-          mkdir -p output
-          mv dist/snake.svg output/github-contribution-grid-snake.svg
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git add output/github-contribution-grid-snake.svg
-          git commit -m "Generated GitHub contribution grid snake animation"
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/snake.svg
+          git commit -m "Updated snake animation" || echo "No changes to commit"
+      - name: Push Snake Animation
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          branch: main
+          force: true
