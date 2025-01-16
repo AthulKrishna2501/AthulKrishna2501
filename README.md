@@ -77,7 +77,7 @@
 </p>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/AthulKrishna2501/AthulKrishna2501/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake Animation"/>
+    <img src="https://raw.githubusercontent.com/https://github.com/AthulKrishna2501/AthulKrishna2501/https://github.com/AthulKrishna2501/AthulKrishna2501/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake Animation"/>
 </div>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=athulkrishna2501&show_icons=true&locale=en&layout=compact" alt="athulkrishna2501" /></p>
