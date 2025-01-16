@@ -14,6 +14,13 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
 
+      - name: Debug Token Access
+        run: |
+          echo "Testing token access..."
+          curl -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/user
+
       - name: Generate Snake Animation
         uses: Platane/snk@v3.0.0
         with:
