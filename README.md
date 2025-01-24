@@ -1,4 +1,4 @@
-[![MasterHead](https://raw.githubusercontent.com/leviarista/github-profile-header-generator/main/social/examples/example-2.png)]
+
 <h1 align="center">Hi 👋, I'm Athul Krishna</h1>
 <h3 align="center">Turning Ideas into Code | Backend in Go | DSA to Deployment | Innovating with Purpose</h3>
 <!-- <img align="right" alt="Coding" width="400" src=https://media.tenor.com/2uyENRmiUt0AAAAM/coding.gif> -->
